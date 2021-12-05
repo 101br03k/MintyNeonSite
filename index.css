@@ -117,8 +117,10 @@
   }
   
   #home .content h1::after{
+    /*
     content: "Adrie Warmerdam";
     animation: textanim 10s linear infinite;
+    */
   }
   
   @keyframes textanim{
@@ -144,7 +146,7 @@
       content: "A Windows User";
     }
   }
- 
+  
   .sm a{
     color: #fff;
     font-size: 22px;
@@ -179,33 +181,7 @@
     background-color: #a622ff;
     color: #fff;
   }
-  
-  #welcome{
-    height: 100vh;
-    min-height: 500px;
-    background: url(images/bg.jpg) no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  
-  #welcome .inner-width{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    text-align: center;
-  }
-  
-  #welcome .content{
-    width: 100%;
-    color: #fff;
-  }
-  
-  #welcome .content h1{
-    font-size: 60px;
-    margin-bottom: 60px;
-  }
-   
+    
   @media screen and (max-width: 600px){
     .inner-width{
       padding: 0 20px;
@@ -227,12 +203,3 @@
       max-width: 100%;
     }
   }
-  
-  
-
-.sm h1{
-  color: #fff;
-  font-size: 22px;
-  margin: 0 15px;
-  transition: .2s linear;
-}
