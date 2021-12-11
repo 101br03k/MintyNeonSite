@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Ubuntu",sans-serif;
+    box-sizing: border-box;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+
+  ::selection{
+    background-color: #48dbfb60;
+  }
+  
+  ::-webkit-scrollbar{
+    width: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: #353b48;
+  }
+  
+  .navbar{
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    padding: 30px 0;
+    top: 0;
+    z-index: 999;
+    transition: .3s linear;
+  }
+  
+  .inner-width{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 40px;
+  }
+  
+  .navbar .inner-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .menu-toggler{
+    background: none;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    z-index: 999;
+    display: none;
+  }
+  
+  .menu-toggler span{
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    position: relative;
+    transition: .3s linear;
+  }
+  
+  .navbar-menu a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .3s linear;
+  }
+  
+  .navbar-menu a:hover{
+    color: #a622ff !important;
+  }
+  
+  .sticky{
+    background-color: #fff;
+    padding: 18px 0;
+  }
+  
+  .sticky .navbar-menu a{
+    color: #111;
+  }
+  
+  .sticky .menu-toggler span{
+    background-color: #111;
+  }
+  
+  #home{
+    height: 100vh;
+    min-height: 500px;
+    background: url(images/bg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #home .inner-width{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  #home .content{
+    width: 100%;
+    color: #fff;
+  }
+  
+  #home .content h1{
+    font-size: 60px;
+    margin-bottom: 60px;
+  }
+  
+  /*
+  #home .content h1::after{
+    
+    content: "Adrie Warmerdam";
+    animation: textanim 10s linear infinite;
+  }
+    
+  @keyframes textanim{
+    12.5%{
+      content: A Nice Guy;
+    }
+    25%{
+      content: "A Developer";
+    }
+    37.5%{
+      content: "A Website Builder";
+    }
+    50%{
+      content: "A Bash Coder";
+    }
+    62.5%{
+      content: "A Github Contibutor";
+    }
+    75%{
+      content: "A Linux Fan And User";
+    }
+    87.5%{
+      content: "A Windows User";
+    }
+  }
+  */
+  
+  .sm a{
+    color: #fff;
+    font-size: 22px;
+    margin: 0 15px;
+    transition: .2s linear;
+  }
+  
+  .sm a:hover{
+    color: #a622ff;
+  }
+  
+  #home .buttons{
+    margin-top: 60px;
+  }
+  
+  #home .buttons a{
+    display: inline-block;
+    margin: 15px 30px;
+    color: #a622ff;
+    font-size: 15px;
+    font-weight: 500;
+    width: 180px;
+    border: 2px solid #a622ff;
+    padding: 14px 0;
+    border-radius: 6px;
+    transition: .2s linear;
+  }
+  
+  #home .buttons a:hover,
+  #home .buttons a:nth-child(2)
+  {
+    background-color: #a622ff;
+    color: #fff;
+  }
+    
+  @media screen and (max-width: 600px){
+    .inner-width{
+      padding: 0 20px;
+    }
+  
+    .skill{
+      width: 100%;
+    }
+  
+    .service{
+      width: 100%;
+    }
+  
+    .work{
+      width: 100%;
+    }
+  
+    .nameZone, .emailZone{
+      max-width: 100%;
+    }
+  }
+
+  #about{
+    height: 100vh;
+    min-height: 500px;
+    background: url(images/darkneonsunset.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #about .inner-width{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  #about .content{
+    width: 100%;
+    color: #fff;
+  }
+  
+  #about .content h1{
+    font-size: 60px;
+    margin-bottom: 60px;
+  }
+
+#about .buttons{
+  margin-top: 60px;
+}
+
+#about .buttons a{
+  display: inline-block;
+  margin: 15px 30px;
+  color: #a622ff;
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  border: 2px solid #a622ff;
+  padding: 14px 0;
+  border-radius: 6px;
+  transition: .2s linear;
+}
+
+#about .buttons a:hover,
+#about .buttons a:nth-child(2)
+{
+  background-color: #a622ff;
+  color: #fff;
+}
+
+#education{
+  height: 100vh;
+  min-height: 500px;
+  background: url(images/purplesunset.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#education .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#education .content{
+  width: 100%;
+  color: #fff;
+}
+
+#education .content h1{
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#education .buttons{
+margin-top: 60px;
+}
+
+#education .buttons a{
+display: inline-block;
+margin: 15px 30px;
+color: #a622ff;
+font-size: 15px;
+font-weight: 500;
+width: 180px;
+border: 2px solid #a622ff;
+padding: 14px 0;
+border-radius: 6px;
+transition: .2s linear;
+}
+
+#education .buttons a:hover,
+#education .buttons a:nth-child(2)
+{
+background-color: #a622ff;
+color: #fff;
+}
+
+#works{
+  height: 100vh;
+  min-height: 500px;
+  background: url(images/bg.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#works .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#works .content{
+  width: 100%;
+  color: #fff;
+}
+
+#works .content h1{
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#works .buttons{
+margin-top: 60px;
+}
+
+#works .buttons a{
+display: inline-block;
+margin: 15px 30px;
+color: #a622ff;
+font-size: 15px;
+font-weight: 500;
+width: 180px;
+border: 2px solid #a622ff;
+padding: 14px 0;
+border-radius: 6px;
+transition: .2s linear;
+}
+
+#works .buttons a:hover,
+#works .buttons a:nth-child(2)
+{
+background-color: #a622ff;
+color: #fff;
+}
+
+#contact{
+  height: 100vh;
+  min-height: 500px;
+  background: url(images/darkneonsunset.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contact .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#contact .content{
+  width: 100%;
+  color: #fff;
+}
+
+#contact .content h1{
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#contact .buttons{
+margin-top: 60px;
+}
+
+#contact .buttons a{
+display: inline-block;
+margin: 15px 30px;
+color: #a622ff;
+font-size: 15px;
+font-weight: 500;
+width: 180px;
+border: 2px solid #a622ff;
+padding: 14px 0;
+border-radius: 6px;
+transition: .2s linear;
+}
+
+#contact .buttons a:hover,
+#contact .buttons a:nth-child(2)
+{
+background-color: #a622ff;
+color: #fff;
+}
