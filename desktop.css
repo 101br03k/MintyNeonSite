@@ -305,7 +305,7 @@ background-color: #a622ff;
 color: #fff;
 }
 
-#works{
+#Projects{
   height: 100vh;
   min-height: 500px;
   background: url(images/bg.jpg) no-repeat center;
@@ -313,7 +313,7 @@ color: #fff;
   background-attachment: fixed;
 }
 
-#works .inner-width{
+#Projects .inner-width{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -321,21 +321,21 @@ color: #fff;
   text-align: center;
 }
 
-#works .content{
+#Projects .content{
   width: 100%;
   color: #fff;
 }
 
-#works .content h1{
+#Projects .content h1{
   font-size: 60px;
   margin-bottom: 60px;
 }
 
-#works .buttons{
+#Projects .buttons{
 margin-top: 60px;
 }
 
-#works .buttons a{
+#Projects .buttons a{
 display: inline-block;
 margin: 15px 30px;
 color: #a622ff;
@@ -348,8 +348,8 @@ border-radius: 6px;
 transition: .2s linear;
 }
 
-#works .buttons a:hover,
-#works .buttons a:nth-child(2)
+#Projects .buttons a:hover,
+#Projects .buttons a:nth-child(2)
 {
 background-color: #a622ff;
 color: #fff;
