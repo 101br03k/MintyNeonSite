@@ -93,9 +93,14 @@
   #home{
     height: 100vh;
     min-height: 500px;
-    background: url(images/bg.jpg) no-repeat center;
+    background: url(images/darkneonsunset.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
   }
   
   #home .inner-width{
@@ -208,9 +213,14 @@
   #about{
     height: 100vh;
     min-height: 500px;
-    background: url(images/darkneonsunset.jpg) no-repeat center;
+    background: url(images/Tux-FHD.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
   }
   
   #about .inner-width{
@@ -258,9 +268,14 @@
 #education{
   height: 100vh;
   min-height: 500px;
-  background: url(images/purplesunset.jpg) no-repeat center;
+  background: url(images/swithc.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 #education .inner-width{
