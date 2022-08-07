@@ -1,3 +1,3 @@
 # MintyNeonSite
 MintyNeonSite
-Github repo for www.adrie.it
+Github repo for adrie.it
