@@ -67,9 +67,9 @@
   
   .navbar-menu a{
     color: #fff;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
-    margin-left: 30px;
+    margin-left: 15px;
     transition: .3s linear;
   }
   
@@ -91,7 +91,7 @@
   }
   
   #home{
-    height: 100vh;
+    height: 75vh;
     min-height: 500px;
     background: url(images/bg.jpg) no-repeat center;
     background-size: cover;
