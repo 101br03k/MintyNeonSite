@@ -30,7 +30,7 @@ whoami = [
 social = [
   "<br>",
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/adrie-warmerdam' + "</a>",
-  'github         <a href="' + github + '" target="_blank">github/forrestknight' + "</a>",
+  'github         <a href="' + github + '" target="_blank">github/101br03k' + "</a>",
   "<br>"
 ];
 
@@ -55,7 +55,6 @@ projects = [
 help = [
   "<br>",
   '<span class="command">whoami</span>         Who are you?',
-  '<span class="command">video</span>          View YouTube videos',
   '<span class="command">social</span>         Display social networks',
   '<span class="command">secret</span>         Find the password',
   '<span class="command">projects</span>       View coding projects',
