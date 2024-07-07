@@ -2,6 +2,7 @@ var password = "Konsole=best-terminal";
 var linkedin = "https://www.linkedin.com/in/adrie-warmerdam/";
 var github = "https://github.com/101br03k/";
 
+/*
 whois = [
   "<br>",
   "Hey, I'm Forrest!👋",
@@ -18,6 +19,7 @@ whois = [
   "like this terminal website.",
   "<br>"
 ];
+*/
 
 whoami = [
   "<br>",
@@ -52,7 +54,6 @@ projects = [
 
 help = [
   "<br>",
-  '<span class="command">whois</span>          Who is Forrest?',
   '<span class="command">whoami</span>         Who are you?',
   '<span class="command">video</span>          View YouTube videos',
   '<span class="command">social</span>         Display social networks',
@@ -65,6 +66,9 @@ help = [
   '<span class="command">banner</span>         Display the header / banner',
   "<br>",
 ];
+/*
+'<span class="command">whois</span>          Who is Forrest?',
+*/
 
 banner = [
   '<br>',
