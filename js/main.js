@@ -82,9 +82,11 @@ function commander(cmd) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
+    /*  
     case "whois":
       loopLines(whois, "color2 margin", 80);
       break;
+    */
     case "":
       break;
     case "whoami":
