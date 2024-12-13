@@ -81,6 +81,7 @@ banner = [
   '  d88P   888 888  888 888     888 88888888                 888       888     ',
   '&thinsp;d8888888888 Y88b 888 888     888 Y8b.          d8b        888       888     ',
   'd88P     888  "Y88888 888     888  "Y8888       Y8P      8888888     888     ',
+  '<br>'
   '<span class="color2">Welcome to my higly interactive web terminal.</span>',
   '<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">"help"</span><span class=\"color2\">.</span>',
   '<br>'
